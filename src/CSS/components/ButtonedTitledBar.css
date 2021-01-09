@@ -1,0 +1,40 @@
+.header-bar{
+    height: 18px;
+    width: 98.2%;
+    position: relative;
+    /* border: 1px solid grey; */
+    
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 15px;
+    box-shadow: -1px 3px rgb(180, 175, 175);
+    
+}
+
+.title-button-panel{
+    /* float: right; */
+    /* display: inline; */
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    /* border: 5px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+.title-name{
+    width: fit-content;
+    letter-spacing: 1px;
+    display: inline-block;
+    color:#EA1F4A ;
+    transform: translateY(-10px);
+    font-size: 31px;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+}
+.location-icon{
+    display: inline;
+    font-size: medium;
+}

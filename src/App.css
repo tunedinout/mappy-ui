@@ -1,0 +1,9 @@
+#app{
+    width: 100vmax;
+    height: 70vmax;
+    background-image: url("https://i.pinimg.com/originals/3a/22/1b/3a221bada4a4296a8ec06d1d38fff3cd.jpg");
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
