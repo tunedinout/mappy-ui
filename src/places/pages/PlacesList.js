@@ -1,8 +1,12 @@
 import React from 'react'
+import ButtonTitleBar from '../components/ButtonedTitleBar';
 
-const PlacesList = () => {
-    return <h1>
-        Places list view.
-    </h1>
+const PlacesList = (props) => {
+    return <div className="places-page">
+        <ButtonTitleBar buttonList={props.buttons} title={props.title} />
+        <h1>
+            Places List view.
+        </h1>
+    </div>
 }
 export default PlacesList;
