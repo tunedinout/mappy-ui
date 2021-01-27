@@ -1,0 +1,12 @@
+.profile-pic-container {
+    height: fit-content;
+    width: fit-content;
+    /* border: 5px solid orchid; */
+    margin: 5px;;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+.canvas_test{
+    border-radius: 50%;
+    /* border-left: 5px solid rgb(185, 19, 116); */
+}
