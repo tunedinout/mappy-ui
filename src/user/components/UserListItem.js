@@ -1,17 +1,15 @@
 import React from 'react'
-import ProfilePicture from './ProfilePicture';
+import UserProfile from './ProfilePicture';
 import './UserListItem.css'
 const UserListItem = (props) => {
     return <div className="user-list-item-container">
-        <ProfilePicture />
-        {/* <div className="user-details">
-            <div className="user-list-item-name">
-                user-name
-            </div>
-            <div className="user-list-item-places">
-                14
-            </div>
-        </div> */}
+        <UserProfile
+            imageSrc={props.imageSrc}
+            width={props.width}
+            height={props.height}
+            username={props.username}
+            placesAdded={props.placesAdded}
+        />
     </div>
 }
 export default UserListItem;;

@@ -2,3 +2,16 @@
     height: 100vmax;
     width: 100vmax;
 }
+
+.users-page-userlist{
+    width: 30vmax;
+    margin-left: 30%;
+    margin-top: 1%;
+    border: 5px solid rgb(233, 32, 99);
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 50px;
+    overflow: scroll;
+    overflow-y: scroll;
+}

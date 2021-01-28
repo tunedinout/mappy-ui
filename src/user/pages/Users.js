@@ -6,8 +6,23 @@ import './Users.css'
 const Users = (props) => {
     return <div className="users-page">
         <ButtonTitleBar buttonList={props.buttons} title={props.title} />
-        <UserListItem />
-    </div>
+        <div className="users-page-userlist" >
+            {
+
+                props.users.map((user) => {
+                    return <UserListItem
+                        imageSrc={user.imageSrc}
+                        width={user.profileImageWidth}
+                        height={user.profileImageHeight}
+                        username={user.username}
+                        placesAdded={user.placesAdded}
+                    />
+                })
+            }
+
+        </div>
+
+    </div >
 
 }
 

@@ -35,10 +35,38 @@ var buttons = [
     path: "places/new"
   }
 ]
-const title = "Mappy";
-const onUsersClick = (event) => {
 
-}
+const users = [
+  {
+    imageSrc: "https://i.pinimg.com/736x/4e/1e/f5/4e1ef5453477c50fe588d18effd0a426.jpg",
+    profileImageHeight: "100",
+    profileImageWidth: "100",
+    username: "Jessica Bretton",
+    placesAdded: 4,
+  },
+  {
+    imageSrc: "https://www.gstatic.com/tv/thumb/persons/70047/70047_v9_bb.jpg",
+    profileImageHeight: "100",
+    profileImageWidth: "100",
+    username: "James Cameron",
+    placesAdded: 10
+  },
+  {
+    imageSrc: "https://pyxis.nymag.com/v1/imgs/411/c95/f56811cafc00d7a8c9e4f9c44caa23d805-25-curb-your-enthusaism-costume-new-lede.rsquare.w700.jpg",
+    profileImageHeight: "100",
+    profileImageWidth: "100",
+    username: "Scott Damon",
+    placesAdded: 10
+  },
+  {
+    imageSrc: "https://pyxis.nymag.com/v1/imgs/411/c95/f56811cafc00d7a8c9e4f9c44caa23d805-25-curb-your-enthusaism-costume-new-lede.rsquare.w700.jpg",
+    profileImageHeight: "100",
+    profileImageWidth: "100",
+    username: "Jacob hardesty",
+    placesAdded: 12,
+  }
+]
+const title = "Mappy";
 const App = () => {
   return (
 
@@ -51,7 +79,7 @@ const App = () => {
           <Auth />
         </Route>
         <Route exact path='/users' >
-          <Users buttons={buttons} title={title} />
+          <Users buttons={buttons} title={title} users={users} />
         </Route>
         <Route exact path='/places' >
           <PlacesList buttons={buttons} title={title} />

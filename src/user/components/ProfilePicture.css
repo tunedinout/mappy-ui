@@ -2,11 +2,95 @@
     height: fit-content;
     width: fit-content;
     /* border: 5px solid orchid; */
-    margin: 5px;;
+    margin: 1px;;
+    margin-top: 10px;
     /* border-radius: 50%; */
     overflow: hidden;
 }
 .canvas_test{
     border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    /* vertical-align: center; */
     /* border-left: 5px solid rgb(185, 19, 116); */
 }
+.canvas_test_container{
+    height: 100%;
+    vertical-align: center;
+    /* padding-top: 10px; */
+}
+.user-details{
+    display: inline;
+    /* float: right; */
+    height: 100%;
+    margin-left: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    text-align: center;
+    
+  }
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px; */
+    padding: 10px;
+    text-align: center;
+    /* padding: 20px; */
+    font-size: 20px; 
+  }
+.canvas_test.grid-item{
+    border-right: 3px solid #d47c9b;;
+}
+
+.grid-container-details {
+    display: grid;
+    grid-template-columns: auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    
+  }
+.grid-item-details {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px; */
+    padding: 0px;
+    text-align: center;
+    /* padding: 20px; */
+    font-size: 20px; 
+    
+    /* display: inline-grid; */
+  }
+  .user-list-item-places.grid-item-details{
+      margin: 0;
+      padding: 0;
+      /* box-sizing: border-box; */
+      
+      padding-top: 10px;
+      width: 90%;
+      font-size: 15px; 
+  }
+  .user-list-item-name{
+        /* padding-top: 340px; */
+        /* transform: translateY(27px); */
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border-bottom: 2px solid blue;
+        height: 50%;
+        font-family: 'Courier New', Courier, monospace;
+  }
+  .user-list-places-button {
+      color: rgb(26, 161, 60);
+  }
+  .user-list-places-button.grid-item{
+      padding-top: 50%;
+  }
